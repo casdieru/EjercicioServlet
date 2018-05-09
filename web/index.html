@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Box Peliculas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>LOG IN</h1>
+        <form action="controlador" method="POST">
+            <label>Nombre:*</label>
+            <input type="text" name="usuario" />
+            <br>
+            <label>Contraseña:*</label>
+            <input type="password" name="pwd" />
+            <br>
+            <label>Sexo:*</label>
+            <input type="radio" name="sexo" value="Masculino" />Masculino
+            <input type="radio" name="sexo" value="Femenino" />Femenino
+            <br>
+            
+            <h3>Elige tus peliculas favoritas</h3>
+             <div>
+                <input type="checkbox" name="pelicula" value="forrestgump" />Forrest Gump
+                <br>
+                <input type="checkbox" name="pelicula" value="lavidaesbella" />La vida es Bella
+                <br>
+                <input type="checkbox" name="pelicula" value="rainmaker" />The Rainmaker
+                <br>
+                <input type="checkbox" name="pelicula" value="starwars" />Star Wars
+                <br>
+                <input type="checkbox" name="pelicula" value="backtothefuture" />Back to the Future
+                <br> <br>
+            </div>
+            
+             <input type="submit" value="LOG IN" />
+            
+        </form>
+    </body>
+</html>
